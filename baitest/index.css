@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Readex Pro;
+    background-color: black;
+}
+.container{
+    width: 1440px;
+    height: 840px;
+}
+.container .header {
+    width: 1170px;
+    height: 107px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color:#FFFFFF;
+    margin-left: 135px;
+}
+
+.header_logo{
+    color: #FFFFFF;
+    margin-top: 43px;
+    
+}
+.menu .menu_item {
+    padding-top: 44px;
+    display: flex;
+    list-style: none;
+    column-gap: 40px;
+}
+.menu .menu_item li a{
+ color:#FFFFFFEB;
+ text-decoration: none
+}
+.menu .menu_item button{
+    color: #FFD600;
+    font-size: 16px;
+    width: 90px;
+    height: 19px;
+}
+.main{
+    display: flex;
+    color: #FFFFFF;
+}
